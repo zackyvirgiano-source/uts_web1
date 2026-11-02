@@ -47,7 +47,7 @@ Halaman awal website dengan tampilan dua kolom: kotak login di kiri dan ilustras
 - **Daftar:** membuka modal pendaftaran dengan nama lengkap, email, dan password. Semua kolom wajib diisi dan email tidak boleh sudah terdaftar. Akun baru otomatis berperan sebagai `User` dan bisa langsung dipakai login.
 - Tampilan menyesuaikan layar kecil (gambar samping disembunyikan pada layar sempit).   
 
-<img src="screenshot/login.png">
+<img width="1916" height="972" alt="image" src="https://github.com/user-attachments/assets/d209de57-c9c5-47c7-8e2e-1111bb2e39b0" />
 
 ### 2. Halaman Dashboard (`dashboard.html`)
 Halaman utama setelah login.
@@ -61,7 +61,7 @@ Halaman utama setelah login.
   - **History Transaksi**: menuju bagian riwayat pada halaman pemesanan.
 - **Tombol Keluar:** menghapus data akun yang sedang login lalu kembali ke halaman login.   
 
-<img src="screenshot/dashboard.png">
+<img width="1915" height="963" alt="image" src="https://github.com/user-attachments/assets/2bebcd27-9d02-4445-8290-11aa6a5bf02b" />
 
 
 ### 3. Halaman Informasi Stok / Katalog (`stok.html`)
@@ -71,8 +71,10 @@ Menampilkan daftar buku yang tersedia dalam bentuk tabel.
 - **Tombol Pesan Buku** di bagian atas mengarahkan langsung ke halaman pemesanan.
 - **Form Tambah Buku Baru:** pengguna mengisi kode barang, nama buku, jenis, edisi, jumlah stok, dan harga. Kode barang harus unik, jika sudah ada akan muncul peringatan. Harga otomatis diformat menjadi format rupiah (misalnya `Rp 150.000`). Buku baru langsung muncul di tabel dan juga tersedia pada pilihan di halaman pemesanan.   
 
-<img src="screenshot/katalog.png">   
-<img src="screenshot/katalog1.png">
+<img width="1917" height="968" alt="image" src="https://github.com/user-attachments/assets/691f3774-6377-46df-a91e-708822415e43" />
+   
+<img width="1917" height="957" alt="image" src="https://github.com/user-attachments/assets/7793a110-b269-4f46-adbb-e24d747dd5ba" />
+
 
 ### 4. Halaman Pemesanan dan History Transaksi (`checkout.html`)
 Halaman untuk membuat pesanan, terdiri dari tiga bagian.
@@ -85,8 +87,10 @@ Halaman untuk membuat pesanan, terdiri dari tiga bagian.
 - **Informasi Pemesan dan Pembayaran:** nama dan email terisi otomatis dari akun yang login. Pengguna mengisi alamat pengiriman dan memilih metode pembayaran (Transfer Bank, COD, atau E-Wallet). Saat **Buat Pesanan** diklik, sistem memastikan keranjang tidak kosong, membuat nomor Delivery Order baru (`DO1001`, `DO1002`, dan seterusnya), menampilkan nomor tersebut, lalu mengosongkan keranjang dan form.
 - **History Transaksi:** tabel berisi No. DO, Nama, Total, dan metode Pembayaran dari setiap pesanan yang sudah dibuat.   
 
-<img src="screenshot/checkout.png">   
-<img src="screenshot/checkout1.png">
+<img width="1917" height="963" alt="image" src="https://github.com/user-attachments/assets/9943fb0f-c547-4ac6-8a7b-5145f5d0371c" />
+  
+<img width="1917" height="965" alt="image" src="https://github.com/user-attachments/assets/a7aa726f-85fe-4522-96a6-d3aecbf06800" />
+
 
 
 ### 5. Halaman Tracking Pengiriman (`tracking.html`)
@@ -99,4 +103,4 @@ Halaman untuk melacak status pesanan berdasarkan nomor Delivery Order.
 - **Hasil pencarian:** menampilkan nomor DO, nama pemesan, status beserta bar progres, ekspedisi, tanggal kirim, jenis paket, total pembayaran, dan **riwayat perjalanan** paket secara berurutan.
 - **Nomor tidak ditemukan:** muncul pesan "Data tidak ditemukan" agar pengguna memeriksa kembali nomor DO.   
 
-<img src="screenshot/tracking.png">
+<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/f30eb932-0887-4909-8dd1-5050b1ae67e4" />
