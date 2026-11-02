@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Katalog Buku | Pustaka UT</title>
+  </head>
+  <body data-page="stok">
+    <header class="topbar" id="topbar"></header>
+    <main>
+      <div class="page-head">
+        <div>
+          <h1>Informasi Stok</h1>
+          <p>Katalog buku ajar dan jumlah stok terkini.</p>
+        </div>
+        <button class="btn saf" id="btnTambah">+ Tambah stok baru</button>
+      </div>
+      <section class="panel" aria-label="Tabel stok">
+        <div class="toolbar">
+          <input
+            type="search"
+            id="cari"
+            placeholder="Cari kode atau judul buku"
+            aria-label="Cari buku"
+          />
+        </div>
+        <div class="tablewrap">
+          <table id="tabelStok">
+            <thead>
+              <tr>
+                <th>Cover</th>
+                <th>Kode</th>
+                <th>Judul</th>
+                <th>Jenis</th>
+                <th>Edisi</th>
+                <th>Stok</th>
+                <th>Harga</th>
+                <th>Aksi</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.all.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

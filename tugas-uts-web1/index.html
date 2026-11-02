@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600;700&display=swap"><link rel="stylesheet" href="css/style.css"><title>Masuk | Pustaka UT</title></head>
+<body data-page="login">
+<div class="login">
+  <section class="hero" aria-label="Tentang Pustaka UT">
+    <div>
+      <a class="brand" href="index.html"><i>UT</i> Pustaka UT</a>
+      <h1>Buku ajar kuliahmu, tinggal pesan.</h1>
+      <p>Cek stok, pesan buku, dan lacak pengirimannya dari satu tempat.</p>
+    </div>
+    <div class="shelf" aria-hidden="true">
+      <img src="img/pengantar_komunikasi.jpg" alt=""><img src="img/manajemen_keuangan.jpg" alt=""><img src="img/kepemimpinan.jpg" alt=""><img src="img/mikrobiologi.jpg" alt=""><img src="img/paud_perkembangan.jpg" alt="">
+    </div>
+  </section>
+  <section class="side">
+    <form id="formLogin" novalidate>
+      <h2>Masuk</h2>
+      <p class="sub">Gunakan akun Pustaka UT kamu.</p>
+      <div class="field"><label for="email">Email</label><input type="email" id="email" placeholder="nama@gmail.com" autocomplete="username"></div>
+      <div class="field"><label for="password">Password</label><input type="password" id="password" placeholder="Password" autocomplete="current-password"></div>
+      <button class="btn saf" type="submit" style="width:100%">Login</button>
+      <div class="row2">
+        <button class="btn ghost" type="button" id="btnLupa">Lupa Password</button>
+        <button class="btn ghost" type="button" id="btnDaftar">Daftar</button>
+      </div>
+      <p class="hint">Akun uji: <b>rina@gmail.com</b> / rina123 (User) &middot; <b>siti@gmail.com</b> / siti123 (Admin)</p>
+    </form>
+  </section>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.all.min.js"></script><script src="js/data.js"></script><script src="js/script.js"></script>
+</body>
+</html>

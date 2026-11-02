@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Dashboard | Pustaka UT</title>
+  </head>
+  <body data-page="dashboard">
+    <header class="topbar" id="topbar"></header>
+    <main>
+      <section class="greet" aria-labelledby="sapa">
+        <div>
+          <h1 id="sapa">Selamat datang</h1>
+          <p id="tanggal"></p>
+        </div>
+        <div class="stats">
+          <div><b id="stJudul">0</b><span>Judul buku</span></div>
+          <div><b id="stStok">0</b><span>Total stok</span></div>
+          <div><b id="stPesan">0</b><span>Pesanan kamu</span></div>
+        </div>
+      </section>
+      <nav class="menu" aria-label="Menu utama">
+        <a href="stok.html"
+          ><span class="ico">📚</span>
+          <h3>Informasi Stok / Katalog</h3>
+          <p>Lihat buku yang tersedia dan tambah stok baru.</p></a
+        >
+        <a href="tracking.html"
+          ><span class="ico">🚚</span>
+          <h3>Tracking Pengiriman</h3>
+          <p>Lacak paketmu dengan nomor Delivery Order.</p></a
+        >
+        <a href="checkout.html"
+          ><span class="ico">🧾</span>
+          <h3>Laporan Pemesanan</h3>
+          <p>Atur isi keranjang, isi data pemesan, dan bayar.</p></a
+        >
+        <a href="riwayat.html"
+          ><span class="ico">🕘</span>
+          <h3>History Transaksi</h3>
+          <p>Semua pesanan yang pernah dibuat.</p></a
+        >
+      </nav>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.all.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tracking | Pustaka UT</title>
+  </head>
+  <body data-page="tracking">
+    <header class="topbar" id="topbar"></header>
+    <main>
+      <div class="page-head">
+        <div>
+          <h1>Tracking Pengiriman</h1>
+          <p>
+            Masukkan Nomor Delivery Order. Coba <b>20230012</b> atau
+            <b>20230013</b>.
+          </p>
+        </div>
+      </div>
+      <form class="search" id="formCari" novalidate>
+        <input
+          id="nomorDO"
+          placeholder="Nomor Delivery Order"
+          inputmode="numeric"
+          aria-label="Nomor Delivery Order"
+        /><button class="btn saf" type="submit">Cari</button>
+      </form>
+      <section id="hasil" aria-live="polite"></section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.all.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
