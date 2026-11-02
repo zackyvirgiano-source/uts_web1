@@ -67,7 +67,7 @@ Halaman utama setelah login.
 ### 3. Halaman Informasi Stok / Katalog (`stok.html`)
 Menampilkan daftar buku yang tersedia dalam bentuk tabel.
 
-- **Tabel katalog:** kolom No, Cover, Kode, Nama Buku, Jenis, Edisi, Stok, dan Harga. Terdapat lima buku awal: Pengantar Ilmu Komunikasi, Manajemen Keuangan, Kepemimpinan, Mikrobiologi Dasar, dan Perkembangan Anak Usia Dini.
+- **Tabel katalog:** Cover, Kode, Nama Buku, Jenis, Edisi, Stok, dan Harga. Terdapat lima buku awal: Pengantar Ilmu Komunikasi, Manajemen Keuangan, Kepemimpinan, Mikrobiologi Dasar, dan Perkembangan Anak Usia Dini.
 - **Tombol Pesan Buku** di bagian atas mengarahkan langsung ke halaman pemesanan.
 - **Form Tambah Buku Baru:** pengguna mengisi kode barang, nama buku, jenis, edisi, jumlah stok, dan harga. Kode barang harus unik, jika sudah ada akan muncul peringatan. Harga otomatis diformat menjadi format rupiah (misalnya `Rp 150.000`). Buku baru langsung muncul di tabel dan juga tersedia pada pilihan di halaman pemesanan.   
 
